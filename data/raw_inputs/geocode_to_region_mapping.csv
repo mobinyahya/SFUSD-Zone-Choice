@@ -1,0 +1,868 @@
+Geocode,Zone
+1,East Boston
+2,East Boston
+3,East Boston
+4,East Boston
+5,East Boston
+6,East Boston
+7,East Boston
+8,East Boston
+9,East Boston
+10,East Boston
+11,East Boston
+12,East Boston
+13,East Boston
+14,East Boston
+15,East Boston
+16,East Boston
+17,East Boston
+18,East Boston
+19,East Boston
+20,East Boston
+21,East Boston
+22,East Boston
+23,East Boston
+24,East Boston
+25,East Boston
+26,East Boston
+27,East Boston
+28,East Boston
+29,East Boston
+30,East Boston
+31,East Boston
+32,East Boston
+33,East Boston
+34,East Boston
+35,East Boston
+36,East Boston
+37,Charlestown
+38,Charlestown
+39,Charlestown
+40,Charlestown
+41,Charlestown
+42,Charlestown
+43,Charlestown
+44,Charlestown
+45,Charlestown
+46,Charlestown
+47,Charlestown
+48,Charlestown
+49,Charlestown
+50,Charlestown
+51,Charlestown
+52,Charlestown
+53,Charlestown
+54,Charlestown
+55,Charlestown
+56,Charlestown
+57,Charlestown
+58,Charlestown
+59,Charlestown
+60,Charlestown
+61,Downtown
+62,Downtown
+63,Downtown
+64,Downtown
+65,Downtown
+66,Downtown
+67,Downtown
+68,Downtown
+69,Downtown
+70,Downtown
+71,Downtown
+72,Downtown
+73,Downtown
+74,Downtown
+75,Downtown
+76,Downtown
+77,Downtown
+78,Downtown
+79,Downtown
+80,Downtown
+81,Downtown
+82,Downtown
+83,Downtown
+84,Downtown
+85,Downtown
+86,Downtown
+87,Downtown
+88,Downtown
+89,Downtown
+90,Downtown
+91,Downtown
+92,Downtown
+93,Downtown
+94,Downtown
+95,Downtown
+96,Downtown
+97,Downtown
+98,Downtown
+99,Downtown
+100,Downtown
+101,Downtown
+102,Downtown
+103,Downtown
+104,Downtown
+105,Downtown
+106,Downtown
+107,Downtown
+108,Downtown
+109,Downtown
+110,Downtown
+111,Downtown
+112,Downtown
+113,Downtown
+114,Downtown
+115,Downtown
+116,Downtown
+117,Downtown
+118,Downtown
+119,Downtown
+120,Downtown
+121,Downtown
+122,Downtown
+123,Downtown
+124,Downtown
+125,Downtown
+126,Downtown
+127,Downtown
+128,Downtown
+129,Downtown
+130,Downtown
+131,Downtown
+132,Downtown
+133,Downtown
+134,Downtown
+135,Downtown
+136,Downtown
+137,Downtown
+138,Downtown
+139,Downtown
+140,Downtown
+141,Downtown
+142,Downtown
+143,Downtown
+144,Downtown
+145,Downtown
+146,Downtown
+147,South End
+148,South End
+149,South End
+150,South End
+151,South End
+152,South End
+153,South End
+154,South End
+155,South End
+156,South End
+157,South End
+158,South End
+159,South End
+160,South End
+161,South End
+162,South End
+163,South End
+164,South End
+165,South End
+166,South End
+167,South End
+168,South End
+169,South End
+170,South End
+171,South End
+172,South End
+173,Downtown
+174,South Boston
+175,North Dorchester
+176,North Dorchester
+177,North Dorchester
+178,Roxbury
+179,Roxbury
+180,Roxbury
+181,Roxbury
+182,Roxbury
+183,Roxbury
+184,North Dorchester
+185,North Dorchester
+186,North Dorchester
+187,North Dorchester
+188,North Dorchester
+189,North Dorchester
+190,South Boston
+191,South Boston
+192,South Boston
+193,South Boston
+194,South Boston
+195,South Boston
+196,South Boston
+197,South Boston
+198,South Boston
+199,South Boston
+200,South Boston
+201,South Boston
+202,South Boston
+203,South Boston
+204,South Boston
+205,South Boston
+206,South Boston
+207,South Boston
+208,South Boston
+209,South Boston
+210,South Boston
+211,South Boston
+212,South Boston
+213,South Boston
+214,South Boston
+215,South Boston
+216,South Boston
+217,South Boston
+218,South Boston
+219,South Boston
+220,South Boston
+221,South Boston
+222,South Boston
+223,South Boston
+224,South Boston
+225,South Boston
+226,South Boston
+227,South Boston
+228,South Boston
+229,South Boston
+230,South Boston
+231,South Boston
+232,South Boston
+233,South Boston
+234,South Boston
+235,North Dorchester
+236,North Dorchester
+237,North Dorchester
+238,North Dorchester
+239,North Dorchester
+240,North Dorchester
+241,North Dorchester
+242,North Dorchester
+243,North Dorchester
+244,North Dorchester
+245,North Dorchester
+246,North Dorchester
+247,North Dorchester
+248,North Dorchester
+249,North Dorchester
+250,North Dorchester
+251,North Dorchester
+252,North Dorchester
+253,South Dorchester
+254,North Dorchester
+255,North Dorchester
+256,North Dorchester
+257,North Dorchester
+258,North Dorchester
+259,Roxbury
+260,Roxbury
+261,Roxbury
+262,Roxbury
+263,Roxbury
+264,Roxbury
+265,Roxbury
+266,Roxbury
+267,Roxbury
+268,Roxbury
+269,Roxbury
+270,South End
+271,South End
+272,South End
+273,South End
+274,South End
+275,South End
+276,Roxbury
+277,Roxbury
+278,Roxbury
+279,Roxbury
+280,Roxbury
+281,Roxbury
+282,Roxbury
+283,Downtown
+284,South End
+285,South End
+286,South End
+287,Roxbury
+288,Roxbury
+289,Roxbury
+290,Roxbury
+291,Roxbury
+292,Roxbury
+293,Roxbury
+294,Roxbury
+295,Roxbury
+296,Roxbury
+297,Roxbury
+298,Roxbury
+299,Roxbury
+300,Roxbury
+301,Roxbury
+302,Roxbury
+303,Roxbury
+304,Roxbury
+305,Roxbury
+306,Roxbury
+307,Roxbury
+308,Roxbury
+309,Roxbury
+310,Roxbury
+311,Roxbury
+312,Roxbury
+313,Roxbury
+314,Roxbury
+315,Roxbury
+316,Roxbury
+317,Roxbury
+318,Roxbury
+319,Roxbury
+320,Roxbury
+321,Roxbury
+322,Roxbury
+323,Roxbury
+324,Roxbury
+325,Roxbury
+326,Roxbury
+327,Roxbury
+328,Roxbury
+329,Roxbury
+330,Roxbury
+331,North Dorchester
+332,North Dorchester
+333,South Dorchester
+334,North Dorchester
+335,South Dorchester
+336,South Dorchester
+337,South Dorchester
+338,North Dorchester
+339,North Dorchester
+340,South Dorchester
+341,South Dorchester
+342,South Dorchester
+343,South Dorchester
+344,South Dorchester
+345,South Dorchester
+346,South Dorchester
+347,South Dorchester
+348,South Dorchester
+349,South Dorchester
+350,South Dorchester
+351,South Dorchester
+352,South Dorchester
+353,South Dorchester
+354,South Dorchester
+355,South Dorchester
+356,South Dorchester
+357,South Dorchester
+358,South Dorchester
+359,South Dorchester
+360,South Dorchester
+361,South Dorchester
+362,South Dorchester
+363,South Dorchester
+364,South Dorchester
+365,South Dorchester
+366,South Dorchester
+367,South Dorchester
+368,South Dorchester
+369,South Dorchester
+370,South Dorchester
+371,South Dorchester
+372,South Dorchester
+373,South Dorchester
+374,South Dorchester
+375,South Dorchester
+376,South Dorchester
+377,South Dorchester
+378,South Dorchester
+379,South Dorchester
+380,South Dorchester
+381,South Dorchester
+382,South Dorchester
+383,South Dorchester
+384,South Dorchester
+385,South Dorchester
+386,South Dorchester
+387,South Dorchester
+388,South Dorchester
+389,South Dorchester
+390,South Dorchester
+391,South Dorchester
+392,South Dorchester
+393,South Dorchester
+394,South Dorchester
+395,South Dorchester
+396,South Dorchester
+397,South Dorchester
+398,South Dorchester
+399,South Dorchester
+400,South Dorchester
+401,South Dorchester
+402,South Dorchester
+403,South Dorchester
+404,South Dorchester
+405,South Dorchester
+406,Mattapan
+407,South Dorchester
+408,Mattapan
+409,Mattapan
+410,Mattapan
+411,Mattapan
+412,Mattapan
+413,Mattapan
+414,South Dorchester
+415,South Dorchester
+416,South Dorchester
+417,South Dorchester
+418,Mattapan
+419,Mattapan
+420,Mattapan
+421,Mattapan
+422,Mattapan
+423,Mattapan
+424,Mattapan
+425,Mattapan
+426,Mattapan
+427,Mattapan
+428,Mattapan
+429,Mattapan
+430,Mattapan
+431,Mattapan
+432,Mattapan
+433,Mattapan
+434,Mattapan
+435,South Dorchester
+436,South Dorchester
+437,South Dorchester
+438,South Dorchester
+439,Mattapan
+440,Mattapan
+441,Roxbury
+442,Roxbury
+443,Roxbury
+444,Roxbury
+445,Roxbury
+446,South Dorchester
+447,South Dorchester
+448,South Dorchester
+449,South Dorchester
+450,South Dorchester
+451,South Dorchester
+452,South Dorchester
+453,South Dorchester
+454,South Dorchester
+455,South Dorchester
+456,Roxbury
+457,Roxbury
+458,Roxbury
+459,Roxbury
+460,Roxbury
+461,South Dorchester
+462,South Dorchester
+463,Mattapan
+464,Mattapan
+465,Mattapan
+466,Mattapan
+467,Mattapan
+468,Mattapan
+469,Mattapan
+470,Mattapan
+471,Mattapan
+472,Mattapan
+473,Mattapan
+474,Mattapan
+475,Mattapan
+476,Mattapan
+477,Mattapan
+478,Hyde Park
+479,Mattapan
+480,Mattapan
+481,Mattapan
+482,Mattapan
+483,Hyde Park
+484,Hyde Park
+485,Hyde Park
+486,Hyde Park
+487,Hyde Park
+488,Hyde Park
+489,Hyde Park
+490,Hyde Park
+491,Hyde Park
+492,Hyde Park
+493,Hyde Park
+494,Hyde Park
+495,Hyde Park
+496,Hyde Park
+497,Hyde Park
+498,Hyde Park
+499,Roslindale
+500,Roslindale
+501,Roslindale
+502,Roslindale
+503,Roslindale
+504,Roslindale
+505,Roslindale
+506,Roslindale
+507,Roslindale
+508,Roslindale
+509,Roslindale
+510,Roslindale
+511,Hyde Park
+512,Hyde Park
+513,Hyde Park
+514,Hyde Park
+515,Hyde Park
+516,Hyde Park
+517,Hyde Park
+518,Hyde Park
+519,Hyde Park
+520,Hyde Park
+521,Hyde Park
+522,Hyde Park
+523,Hyde Park
+524,Hyde Park
+525,Hyde Park
+526,Hyde Park
+527,Hyde Park
+528,Hyde Park
+529,Hyde Park
+530,Hyde Park
+531,Hyde Park
+532,Hyde Park
+533,Hyde Park
+534,Hyde Park
+535,Hyde Park
+536,Hyde Park
+537,Hyde Park
+538,Hyde Park
+539,Hyde Park
+540,Hyde Park
+541,Hyde Park
+542,Hyde Park
+543,Hyde Park
+544,Roslindale
+545,Roslindale
+546,Hyde Park
+547,Hyde Park
+548,Hyde Park
+549,West Roxbury
+550,Roslindale
+551,Roslindale
+552,Roslindale
+553,Hyde Park
+554,Hyde Park
+555,Roslindale
+556,Roslindale
+557,Roslindale
+558,Roslindale
+559,Roslindale
+560,Roslindale
+561,Roslindale
+562,Roslindale
+563,Roslindale
+564,Roslindale
+565,Roslindale
+566,Roxbury
+567,Roxbury
+568,Roxbury
+569,Jamaica Plain
+570,Jamaica Plain
+571,Roxbury
+572,Roxbury
+573,Jamaica Plain
+574,Roxbury
+575,Roxbury
+576,Roxbury
+577,Roxbury
+578,Jamaica Plain
+579,Jamaica Plain
+580,Jamaica Plain
+581,Jamaica Plain
+582,Jamaica Plain
+583,Jamaica Plain
+584,Jamaica Plain
+585,Jamaica Plain
+586,Jamaica Plain
+587,Jamaica Plain
+588,Jamaica Plain
+589,Jamaica Plain
+590,Downtown
+591,Downtown
+592,Downtown
+593,Downtown
+594,Downtown
+595,Downtown
+596,Downtown
+597,South End
+598,Downtown
+599,Downtown
+600,Downtown
+601,Jamaica Plain
+602,Downtown
+603,Jamaica Plain
+604,Jamaica Plain
+605,Jamaica Plain
+606,Jamaica Plain
+607,Jamaica Plain
+608,Jamaica Plain
+609,Jamaica Plain
+610,Jamaica Plain
+611,Jamaica Plain
+612,Downtown
+613,Downtown
+614,Downtown
+615,Downtown
+616,Downtown
+617,Downtown
+618,Downtown
+619,Downtown
+620,Downtown
+621,Downtown
+622,Downtown
+623,Downtown
+624,Downtown
+625,Downtown
+626,Downtown
+627,Downtown
+628,Downtown
+629,Downtown
+630,Downtown
+631,Downtown
+632,Downtown
+633,Jamaica Plain
+634,Jamaica Plain
+635,Jamaica Plain
+636,Jamaica Plain
+637,Jamaica Plain
+638,Jamaica Plain
+639,Jamaica Plain
+640,Jamaica Plain
+641,Jamaica Plain
+642,Jamaica Plain
+643,Jamaica Plain
+644,Jamaica Plain
+645,Jamaica Plain
+646,Jamaica Plain
+647,Jamaica Plain
+648,Jamaica Plain
+649,Jamaica Plain
+650,Jamaica Plain
+651,Jamaica Plain
+652,Jamaica Plain
+653,Jamaica Plain
+654,Jamaica Plain
+655,Jamaica Plain
+656,Jamaica Plain
+657,Jamaica Plain
+658,West Roxbury
+659,West Roxbury
+660,West Roxbury
+661,Roslindale
+662,Roslindale
+663,Roslindale
+664,Roslindale
+665,Jamaica Plain
+666,Jamaica Plain
+667,Roslindale
+668,Roslindale
+669,West Roxbury
+670,Roslindale
+671,Roslindale
+672,Roslindale
+673,Roslindale
+674,Roslindale
+675,Roslindale
+676,Roslindale
+677,West Roxbury
+678,West Roxbury
+679,Roslindale
+680,Roslindale
+681,Roslindale
+682,Roslindale
+683,Roslindale
+684,Roslindale
+685,Roslindale
+686,Roslindale
+687,Roslindale
+688,West Roxbury
+689,West Roxbury
+690,West Roxbury
+691,West Roxbury
+692,West Roxbury
+693,West Roxbury
+694,West Roxbury
+695,West Roxbury
+696,West Roxbury
+697,West Roxbury
+698,West Roxbury
+699,West Roxbury
+700,West Roxbury
+701,West Roxbury
+702,West Roxbury
+703,West Roxbury
+704,West Roxbury
+705,West Roxbury
+706,West Roxbury
+707,West Roxbury
+708,West Roxbury
+709,West Roxbury
+710,West Roxbury
+711,West Roxbury
+712,West Roxbury
+713,West Roxbury
+714,West Roxbury
+715,West Roxbury
+716,West Roxbury
+717,West Roxbury
+718,West Roxbury
+719,West Roxbury
+720,West Roxbury
+721,West Roxbury
+722,West Roxbury
+723,West Roxbury
+724,West Roxbury
+725,West Roxbury
+726,West Roxbury
+727,West Roxbury
+728,West Roxbury
+729,West Roxbury
+730,West Roxbury
+731,West Roxbury
+732,West Roxbury
+733,West Roxbury
+734,West Roxbury
+735,West Roxbury
+736,West Roxbury
+737,West Roxbury
+738,West Roxbury
+739,West Roxbury
+740,West Roxbury
+741,West Roxbury
+742,West Roxbury
+743,West Roxbury
+744,West Roxbury
+745,West Roxbury
+746,West Roxbury
+747,West Roxbury
+748,West Roxbury
+749,Allston-Brighton
+750,Allston-Brighton
+751,Allston-Brighton
+752,Allston-Brighton
+753,Allston-Brighton
+754,Allston-Brighton
+755,Allston-Brighton
+756,Allston-Brighton
+757,Allston-Brighton
+758,Allston-Brighton
+759,Allston-Brighton
+760,Allston-Brighton
+761,Allston-Brighton
+762,Allston-Brighton
+763,Allston-Brighton
+764,Allston-Brighton
+765,Allston-Brighton
+766,Allston-Brighton
+767,Allston-Brighton
+768,Allston-Brighton
+769,Allston-Brighton
+770,Allston-Brighton
+771,Allston-Brighton
+772,Allston-Brighton
+773,Allston-Brighton
+774,Allston-Brighton
+775,Allston-Brighton
+776,Allston-Brighton
+777,Allston-Brighton
+778,Allston-Brighton
+779,Allston-Brighton
+780,Allston-Brighton
+781,Allston-Brighton
+782,Allston-Brighton
+783,Allston-Brighton
+784,Allston-Brighton
+785,Allston-Brighton
+786,Allston-Brighton
+787,Allston-Brighton
+788,Allston-Brighton
+789,Allston-Brighton
+790,Allston-Brighton
+791,Allston-Brighton
+792,Allston-Brighton
+793,Allston-Brighton
+794,Allston-Brighton
+795,Allston-Brighton
+796,Allston-Brighton
+797,Allston-Brighton
+798,Allston-Brighton
+799,Allston-Brighton
+800,Allston-Brighton
+801,Allston-Brighton
+802,Allston-Brighton
+803,Allston-Brighton
+804,Allston-Brighton
+805,Allston-Brighton
+806,Allston-Brighton
+807,Allston-Brighton
+808,Allston-Brighton
+809,Allston-Brighton
+810,Allston-Brighton
+811,Allston-Brighton
+812,Allston-Brighton
+813,Allston-Brighton
+814,Allston-Brighton
+815,Allston-Brighton
+816,Allston-Brighton
+817,South Dorchester
+818,Roslindale
+819,South Dorchester
+820,Allston-Brighton
+821,West Roxbury
+822,West Roxbury
+823,North Dorchester
+824,East Boston
+825,Hyde Park
+826,West Roxbury
+827,Hyde Park
+828,Roslindale
+829,Mattapan
+830,South Dorchester
+831,Mattapan
+832,Mattapan
+833,Mattapan
+834,Mattapan
+835,Roxbury
+836,South Dorchester
+837,South Dorchester
+838,Roxbury
+839,Roxbury
+840,Roxbury
+841,South Dorchester
+842,North Dorchester
+843,North Dorchester
+844,Jamaica Plain
+845,Jamaica Plain
+846,Roxbury
+847,Roxbury
+848,Jamaica Plain
+849,Jamaica Plain
+850,Jamaica Plain
+851,South End
+852,South End
+853,South Boston
+854,Allston-Brighton
+855,East Boston
+856,East Boston
+857,East Boston
+858,Roxbury
+859,Mattapan
+860,Mattapan
+861,Mattapan
+862,Mattapan
+863,Jamaica Plain
+864,West Roxbury
+865,Roxbury
+866,Roxbury
+867,Mattapan

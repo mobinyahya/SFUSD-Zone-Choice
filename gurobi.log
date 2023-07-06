@@ -1,0 +1,877 @@
+
+Gurobi 8.1.1 (linux64, Python) logging started Fri Jul 19 15:47:15 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 1648 rows, 59585 columns and 349033 nonzeros
+Coefficient statistics:
+  Matrix range     [7e-05, 4e+02]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.12s
+Presolved: 1648 rows, 59585 columns, 349033 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 1
+ AA' NZ     : 1.257e+05
+ Factor NZ  : 1.323e+05 (roughly 26 MBytes of memory)
+ Factor Ops : 1.082e+07 (less than 1 second per iteration)
+ Threads    : 3
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.89547312e+07  1.15158652e+04  3.19e+06 8.55e+01  1.04e+05     0s
+   1   3.73358764e+07  3.10127559e+05  2.45e+06 3.35e+02  8.07e+04     0s
+   2   8.18587422e+06  6.03799820e+05  5.32e+05 1.46e+02  1.81e+04     0s
+   3   5.65753533e+05  8.28880278e+05  3.56e+04 3.84e+01  1.23e+03     0s
+   4   9.80691740e+04  7.89489125e+05  5.68e+03 5.88e+00  2.04e+02     0s
+   5   3.25260878e+04  7.12697289e+05  1.55e+03 4.18e+00  6.35e+01     0s
+   6   2.06090938e+04  5.80212129e+05  7.72e+02 2.45e+00  3.40e+01     0s
+   7   1.78007134e+04  4.56551785e+05  5.91e+02 1.43e+00  2.39e+01     0s
+   8   1.26222936e+04  3.38032552e+05  2.57e+02 6.49e-01  1.14e+01     0s
+   9   1.01074207e+04  1.80843974e+05  8.44e+01 2.02e-01  3.98e+00     0s
+  10   1.01033651e+04  9.45919776e+04  3.86e+01 7.65e-02  1.68e+00     0s
+  11   1.07557169e+04  7.39374879e+04  1.91e+01 5.48e-02  1.15e+00     0s
+  12   1.11495655e+04  4.77113389e+04  1.30e+01 2.94e-02  6.50e-01     0s
+  13   1.19567774e+04  3.60302054e+04  7.04e+00 1.87e-02  4.16e-01     0s
+  14   1.25913044e+04  2.83398790e+04  4.58e+00 1.19e-02  2.69e-01     1s
+  15   1.31727982e+04  2.52245055e+04  2.93e+00 9.10e-03  2.04e-01     1s
+  16   1.33610921e+04  2.25230396e+04  2.43e+00 6.81e-03  1.55e-01     1s
+  17   1.37440276e+04  2.02244810e+04  1.65e+00 4.74e-03  1.09e-01     1s
+  18   1.38606586e+04  1.91574082e+04  1.44e+00 3.70e-03  8.91e-02     1s
+  19   1.41064795e+04  1.87635066e+04  8.57e-01 3.34e-03  7.81e-02     1s
+  20   1.41808497e+04  1.78258428e+04  6.72e-01 2.55e-03  6.11e-02     1s
+  21   1.43097873e+04  1.73545935e+04  3.41e-03 2.09e-03  5.09e-02     1s
+  22   1.43988649e+04  1.70626969e+04  2.65e-03 1.83e-03  4.45e-02     1s
+  23   1.44858062e+04  1.67482621e+04  2.15e-03 1.57e-03  3.78e-02     1s
+  24   1.45683438e+04  1.64240460e+04  1.90e-03 1.21e-03  3.10e-02     1s
+  25   1.48194108e+04  1.61941112e+04  1.14e-03 9.34e-04  2.29e-02     1s
+  26   1.48549770e+04  1.61445101e+04  1.07e-03 8.66e-04  2.15e-02     1s
+  27   1.49369539e+04  1.60794362e+04  8.98e-04 7.93e-04  1.90e-02     1s
+  28   1.50017442e+04  1.59729392e+04  7.80e-04 6.42e-04  1.62e-02     1s
+  29   1.50860281e+04  1.58694274e+04  6.43e-04 4.85e-04  1.31e-02     1s
+  30   1.51563892e+04  1.58223975e+04  5.44e-04 4.04e-04  1.11e-02     1s
+  31   1.52360068e+04  1.57911615e+04  4.43e-04 3.37e-04  9.25e-03     1s
+  32   1.52590982e+04  1.57803509e+04  4.14e-04 3.18e-04  8.69e-03     1s
+  33   1.53119840e+04  1.57600793e+04  3.53e-04 2.71e-04  7.47e-03     1s
+  34   1.53704884e+04  1.57453104e+04  2.85e-04 2.33e-04  6.24e-03     1s
+  35   1.53946099e+04  1.57393287e+04  2.59e-04 2.21e-04  5.74e-03     1s
+  36   1.54474211e+04  1.57293995e+04  2.00e-04 1.93e-04  4.70e-03     1s
+  37   1.54517618e+04  1.57171406e+04  1.95e-04 1.64e-04  4.42e-03     1s
+  38   1.55227850e+04  1.57086825e+04  1.25e-04 1.39e-04  3.10e-03     1s
+  39   1.55312921e+04  1.57040425e+04  1.16e-04 1.26e-04  2.88e-03     1s
+  40   1.55584342e+04  1.56962501e+04  9.16e-05 9.74e-05  2.30e-03     1s
+  41   1.55788050e+04  1.56924012e+04  7.17e-05 8.54e-05  1.89e-03     1s
+  42   1.55870440e+04  1.56892289e+04  6.49e-05 7.39e-05  1.70e-03     1s
+  43   1.55989327e+04  1.56855012e+04  5.44e-05 6.27e-05  1.44e-03     1s
+  44   1.56188562e+04  1.56813936e+04  3.89e-05 4.81e-05  1.04e-03     1s
+  45   1.56265625e+04  1.56774871e+04  3.24e-05 3.12e-05  8.48e-04     1s
+  46   1.56398752e+04  1.56762351e+04  2.27e-05 2.39e-05  6.05e-04     1s
+  47   1.56461441e+04  1.56755362e+04  1.77e-05 1.99e-05  4.89e-04     1s
+  48   1.56522097e+04  1.56751592e+04  1.31e-05 1.80e-05  3.82e-04     1s
+  49   1.56527446e+04  1.56748257e+04  1.27e-05 1.63e-05  3.68e-04     1s
+  50   1.56574221e+04  1.56737325e+04  9.14e-06 1.09e-05  2.72e-04     1s
+  51   1.56666088e+04  1.56731667e+04  2.81e-06 7.79e-06  1.09e-04     1s
+  52   1.56689302e+04  1.56723831e+04  1.16e-06 2.76e-06  5.75e-05     1s
+  53   1.56709254e+04  1.56721727e+04  3.38e-07 1.40e-06  2.08e-05     1s
+  54   1.56717241e+04  1.56720161e+04  6.20e-08 3.89e-07  4.86e-06     1s
+  55   1.56719247e+04  1.56719680e+04  6.86e-09 7.91e-08  7.23e-07     1s
+  56   1.56719553e+04  1.56719556e+04  8.38e-13 1.55e-12  2.78e-09     1s
+  57   1.56719556e+04  1.56719556e+04  2.60e-11 9.40e-12  4.67e-13     1s
+
+Barrier solved model in 57 iterations and 1.47 seconds
+Optimal objective 1.56719556e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 8.6839910e-13                 1s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.3048577e-12      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      22    1.5671956e+04   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22 iterations and 1.52 seconds
+Optimal objective  1.567195559e+04
+Optimize a model with 1648 rows, 60369 columns and 401772 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.2353498e+33   1.543592e+33   2.235350e+03      0s
+    1923    1.8935203e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 1923 iterations and 1.06 seconds
+Optimal objective  1.893520253e+04
+Optimize a model with 1648 rows, 61153 columns and 413856 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.0097734e+33   3.192902e+33   8.009773e+03      0s
+    4229    2.3037860e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 4229 iterations and 2.90 seconds
+Optimal objective  2.303785984e+04
+Optimize a model with 1648 rows, 61933 columns and 429814 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.5976304e+33   2.414171e+33   5.597630e+03      0s
+    5466    2.4564058e+04   0.000000e+00   0.000000e+00      4s
+
+Solved in 5466 iterations and 4.40 seconds
+Optimal objective  2.456405755e+04
+Optimize a model with 1648 rows, 62715 columns and 444626 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.8214527e+33   4.806304e+33   4.821453e+03      0s
+    6001    2.5925726e+04   2.557597e+04   0.000000e+00      5s
+    7057    2.5818640e+04   0.000000e+00   0.000000e+00      6s
+
+Solved in 7057 iterations and 6.28 seconds
+Optimal objective  2.581863958e+04
+Optimize a model with 1648 rows, 63499 columns and 455574 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.8073319e+33   1.178613e+34   3.807332e+03      0s
+    5341    2.6530076e+04   0.000000e+00   0.000000e+00      5s
+
+Solved in 5341 iterations and 4.77 seconds
+Optimal objective  2.653007574e+04
+Optimize a model with 1648 rows, 64283 columns and 467828 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.5386886e+33   4.332348e+33   2.538689e+03      0s
+    5487    2.6812410e+04   4.361856e+02   0.000000e+00      5s
+    5619    2.6810279e+04   0.000000e+00   0.000000e+00      5s
+
+Solved in 5619 iterations and 5.35 seconds
+Optimal objective  2.681027950e+04
+Optimize a model with 1648 rows, 65065 columns and 478883 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.6261013e+33   9.915876e+33   1.626101e+03      0s
+    5092    2.7201063e+04   3.570219e+03   0.000000e+00      5s
+    6437    2.6990194e+04   0.000000e+00   0.000000e+00      7s
+
+Solved in 6437 iterations and 6.57 seconds
+Optimal objective  2.699019388e+04
+Optimize a model with 1648 rows, 65832 columns and 489219 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2163235e+33   1.064305e+34   1.216324e+03      0s
+    4680    2.7117423e+04   0.000000e+00   0.000000e+00      5s
+
+Solved in 4680 iterations and 4.51 seconds
+Optimal objective  2.711742255e+04
+Optimize a model with 1648 rows, 66594 columns and 499904 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.0564980e+32   4.844255e+33   6.056498e+02      0s
+    5271    2.7197167e+04   2.654850e+01   0.000000e+00      5s
+    5329    2.7197123e+04   0.000000e+00   0.000000e+00      5s
+
+Solved in 5329 iterations and 5.19 seconds
+Optimal objective  2.719712338e+04
+Optimize a model with 1648 rows, 67329 columns and 510369 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.7659357e+32   3.487435e+33   2.765936e+02      0s
+    4572    2.7262956e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 4572 iterations and 3.46 seconds
+Optimal objective  2.726295626e+04
+Optimize a model with 1648 rows, 68061 columns and 521356 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.3230344e+32   1.320143e+34   1.323034e+02      0s
+    3662    2.7299737e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 3662 iterations and 2.69 seconds
+Optimal objective  2.729973722e+04
+Optimize a model with 1648 rows, 68775 columns and 532540 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.4376115e+31   9.898526e+33   9.437612e+01      0s
+    3540    2.7319708e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 3540 iterations and 2.95 seconds
+Optimal objective  2.731970786e+04
+Optimize a model with 1648 rows, 69473 columns and 543370 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.8086418e+31   2.834962e+33   4.808642e+01      0s
+    2310    2.7330621e+04   0.000000e+00   0.000000e+00      2s
+
+Solved in 2310 iterations and 1.79 seconds
+Optimal objective  2.733062112e+04
+Optimize a model with 1648 rows, 70101 columns and 552958 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.2176103e+31   2.780303e+33   2.217610e+01      0s
+    2427    2.7336874e+04   0.000000e+00   0.000000e+00      2s
+
+Solved in 2427 iterations and 1.87 seconds
+Optimal objective  2.733687406e+04
+Optimize a model with 1648 rows, 70707 columns and 562510 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0913907e+31   1.066901e+33   1.091391e+01      0s
+    1367    2.7340142e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 1367 iterations and 0.99 seconds
+Optimal objective  2.734014206e+04
+Optimize a model with 1648 rows, 71266 columns and 571130 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.7350374e+30   8.616024e+32   4.735037e+00      0s
+    1639    2.7341968e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 1639 iterations and 1.47 seconds
+Optimal objective  2.734196797e+04
+Optimize a model with 1648 rows, 71776 columns and 578613 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0256708e+30   4.850284e+32   1.025671e+00      0s
+     618    2.7342363e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 618 iterations and 0.52 seconds
+Optimal objective  2.734236308e+04
+Optimize a model with 1648 rows, 72250 columns and 585613 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.6656942e+29   2.081316e+32   1.665694e-01      0s
+     294    2.7342438e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 294 iterations and 0.31 seconds
+Optimal objective  2.734243814e+04
+Optimize a model with 1648 rows, 72732 columns and 592735 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2586843e+28   7.863543e+31   1.258684e-02      0s
+      98    2.7342442e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 98 iterations and 0.16 seconds
+Optimal objective  2.734244219e+04
+Optimize a model with 1648 rows, 73211 columns and 599641 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.0944860e+26   9.878718e+30   3.094486e-04      0s
+      10    2.7342442e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.07 seconds
+Optimal objective  2.734244229e+04
+Optimize a model with 1648 rows, 9982 columns and 37843 nonzeros
+Coefficient statistics:
+  Matrix range     [7e-03, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 2 rows and 0 columns
+Presolve time: 0.01s
+Presolved: 1646 rows, 9982 columns, 37843 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 1
+ AA' NZ     : 2.317e+04
+ Factor NZ  : 2.938e+04 (roughly 5 MBytes of memory)
+ Factor Ops : 6.401e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.29890864e+06  1.28380462e+04  3.19e+04 4.53e+01  7.89e+03     0s
+   1   8.60075796e+05  2.83251181e+05  2.17e+04 2.22e+02  5.40e+03     0s
+   2   3.49144054e+05  7.12887210e+05  8.43e+03 0.00e+00  2.32e+03     0s
+   3   2.15999156e+04  6.15131345e+05  3.18e+02 0.00e+00  1.37e+02     0s
+   4   9.26751749e+03  2.52774532e+05  1.85e+01 0.00e+00  2.52e+01     0s
+   5   9.11064168e+03  6.57674461e+04  1.78e-15 0.00e+00  5.23e+00     0s
+
+Barrier performed 5 iterations in 0.05 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 892 iterations and 0.05 seconds
+Optimal objective  1.559661452e+04
+Optimize a model with 1648 rows, 10766 columns and 50095 nonzeros
+Coefficient statistics:
+  Matrix range     [6e-04, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.0610802e+33   2.524687e+33   6.061080e+03      0s
+    4562    2.2064612e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 4562 iterations and 0.72 seconds
+Optimal objective  2.206461250e+04
+Optimize a model with 1648 rows, 11533 columns and 59724 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    7.4621355e+33   5.993749e+33   7.462136e+03      0s
+    8267    2.5738087e+04   0.000000e+00   0.000000e+00      2s
+
+Solved in 8267 iterations and 1.58 seconds
+Optimal objective  2.573808684e+04
+Optimize a model with 1648 rows, 12296 columns and 68801 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.9007608e+33   6.709435e+33   3.900761e+03      0s
+    7437    2.6932498e+04   0.000000e+00   0.000000e+00      2s
+
+Solved in 7437 iterations and 1.55 seconds
+Optimal objective  2.693249796e+04
+Optimize a model with 1648 rows, 13028 columns and 76715 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.0982139e+33   4.565122e+33   2.098214e+03      0s
+    6331    2.7157829e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 6331 iterations and 1.32 seconds
+Optimal objective  2.715782908e+04
+Optimize a model with 1648 rows, 13723 columns and 83463 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.4374150e+33   2.565999e+34   1.437415e+03      0s
+    4118    2.7267922e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 4118 iterations and 0.81 seconds
+Optimal objective  2.726792190e+04
+Optimize a model with 1648 rows, 14426 columns and 91628 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.3854072e+32   3.468491e+33   8.385407e+02      0s
+    3125    2.7354740e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 3125 iterations and 0.72 seconds
+Optimal objective  2.735473982e+04
+Optimize a model with 1648 rows, 15066 columns and 99411 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.3064646e+32   7.296058e+33   4.306465e+02      0s
+    3097    2.7418888e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 3097 iterations and 0.81 seconds
+Optimal objective  2.741888783e+04
+Optimize a model with 1648 rows, 15684 columns and 106330 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    7.1666588e+31   1.199326e+34   7.166659e+01      0s
+    1449    2.7424929e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 1449 iterations and 0.36 seconds
+Optimal objective  2.742492867e+04
+Optimize a model with 1648 rows, 16236 columns and 112851 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.5344921e+31   1.035604e+33   1.534492e+01      0s
+     975    2.7428727e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 975 iterations and 0.26 seconds
+Optimal objective  2.742872724e+04
+Optimize a model with 1648 rows, 16745 columns and 118980 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.4565845e+30   4.332624e+32   2.456585e+00      0s
+     497    2.7429333e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 497 iterations and 0.13 seconds
+Optimal objective  2.742933322e+04
+Optimize a model with 1648 rows, 17208 columns and 124513 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.9554001e+29   1.206514e+32   6.955400e-01      0s
+     475    2.7429467e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 475 iterations and 0.16 seconds
+Optimal objective  2.742946703e+04
+Optimize a model with 1648 rows, 17692 columns and 130225 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    9.1213323e+28   3.331682e+31   9.121332e-02      0s
+      75    2.7429520e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 75 iterations and 0.05 seconds
+Optimal objective  2.742952009e+04
+Optimize a model with 1648 rows, 18181 columns and 135935 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 3e+02]
+  Objective range  [2e-03, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+03]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7792702e+27   8.376901e+30   3.779270e-03      0s
+      17    2.7429522e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 17 iterations and 0.03 seconds
+Optimal objective  2.742952218e+04
+Optimize a model with 1648 rows, 59585 columns and 349033 nonzeros
+Coefficient statistics:
+  Matrix range     [7e-05, 4e+02]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.11s
+Presolved: 1648 rows, 59585 columns, 349033 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ Dense cols : 1
+ AA' NZ     : 1.257e+05
+ Factor NZ  : 1.323e+05 (roughly 26 MBytes of memory)
+ Factor Ops : 1.082e+07 (less than 1 second per iteration)
+ Threads    : 3
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.44951385e+07  1.10045043e+04  3.55e+06 8.55e+01  1.15e+05     0s
+   1   4.15638546e+07  3.00043192e+05  2.73e+06 3.35e+02  8.98e+04     0s
+   2   9.07952098e+06  5.77023546e+05  5.90e+05 1.39e+02  2.01e+04     0s
+   3   7.24913041e+05  9.48574305e+05  4.59e+04 2.30e+01  1.59e+03     0s
+   4   4.29879859e+04  8.43052998e+05  2.18e+03 6.98e-02  8.87e+01     0s
+   5   2.74994291e+04  7.51031338e+05  1.11e+03 5.18e-02  5.18e+01     0s
+   6   1.58160068e+04  5.37916236e+05  4.72e+02 2.27e-02  2.27e+01     0s
+   7   1.34941482e+04  3.84429957e+05  3.26e+02 1.17e-02  1.37e+01     0s
+   8   9.81725834e+03  2.49286214e+05  8.48e+01 4.89e-03  5.35e+00     0s
+   9   9.09773993e+03  9.72905598e+04  1.73e+00 1.11e-03  1.47e+00     0s
+  10   9.94423895e+03  6.26315690e+04  8.52e-01 6.61e-04  8.78e-01     0s
+  11   1.07863714e+04  4.37026728e+04  2.33e-01 3.98e-04  5.47e-01     0s
+  12   1.14895251e+04  3.09908113e+04  2.29e-03 2.35e-04  3.24e-01     0s
+  13   1.25457185e+04  2.35411704e+04  1.40e-03 1.25e-04  1.82e-01     0s
+  14   1.30124133e+04  2.11267652e+04  1.10e-03 8.79e-05  1.35e-01     0s
+  15   1.32968492e+04  1.98484520e+04  9.49e-04 6.43e-05  1.09e-01     0s
+  16   1.35559847e+04  1.88185251e+04  8.42e-04 4.71e-05  8.72e-02     1s
+  17   1.38541230e+04  1.84277882e+04  6.98e-04 4.08e-05  7.58e-02     1s
+  18   1.39809601e+04  1.80886547e+04  6.21e-04 3.63e-05  6.81e-02     1s
+  19   1.42459406e+04  1.79533130e+04  4.82e-04 3.40e-05  6.14e-02     1s
+  20   1.44556031e+04  1.69840831e+04  3.47e-04 2.21e-05  4.19e-02     1s
+  21   1.46581855e+04  1.64861109e+04  2.21e-04 1.56e-05  3.03e-02     1s
+  22   1.47963725e+04  1.60930536e+04  1.76e-04 9.83e-06  2.15e-02     1s
+  23   1.49424214e+04  1.59101982e+04  1.33e-04 6.48e-06  1.60e-02     1s
+  24   1.50592438e+04  1.58759885e+04  1.04e-04 4.88e-06  1.35e-02     1s
+  25   1.51959973e+04  1.58163596e+04  7.22e-05 3.79e-06  1.03e-02     1s
+  26   1.52352111e+04  1.57966764e+04  6.57e-05 3.29e-06  9.30e-03     1s
+  27   1.53289043e+04  1.57608568e+04  5.01e-05 1.94e-06  7.15e-03     1s
+  28   1.53815804e+04  1.57279081e+04  4.17e-05 1.27e-06  5.74e-03     1s
+  29   1.54426968e+04  1.57163326e+04  3.19e-05 1.04e-06  4.53e-03     1s
+  30   1.55103979e+04  1.56964828e+04  2.20e-05 5.84e-07  3.08e-03     1s
+  31   1.55204603e+04  1.56899062e+04  2.04e-05 4.68e-07  2.81e-03     1s
+  32   1.55441130e+04  1.56867372e+04  1.71e-05 3.87e-07  2.36e-03     1s
+  33   1.55749253e+04  1.56841753e+04  1.27e-05 3.18e-07  1.81e-03     1s
+  34   1.55985328e+04  1.56815074e+04  9.42e-06 2.50e-07  1.37e-03     1s
+  35   1.56113954e+04  1.56789919e+04  7.72e-06 1.79e-07  1.12e-03     1s
+  36   1.56270894e+04  1.56772326e+04  5.59e-06 1.42e-07  8.30e-04     1s
+  37   1.56424176e+04  1.56748155e+04  3.58e-06 6.76e-08  5.37e-04     1s
+  38   1.56491388e+04  1.56733735e+04  2.76e-06 3.65e-08  4.01e-04     1s
+  39   1.56558695e+04  1.56731847e+04  1.91e-06 3.22e-08  2.87e-04     1s
+  40   1.56581077e+04  1.56727087e+04  1.63e-06 2.01e-08  2.42e-04     1s
+  41   1.56660590e+04  1.56725511e+04  6.51e-07 1.63e-08  1.08e-04     1s
+  42   1.56690434e+04  1.56722224e+04  3.01e-07 6.45e-09  5.26e-05     1s
+  43   1.56706082e+04  1.56721034e+04  1.30e-07 3.66e-09  2.48e-05     1s
+  44   1.56718114e+04  1.56719612e+04  8.87e-09 0.00e+00  2.48e-06     1s
+  45   1.56719445e+04  1.56719567e+04  4.91e-11 0.00e+00  2.01e-07     1s
+  46   1.56719555e+04  1.56719559e+04  5.13e-11 0.00e+00  7.63e-09     1s
+  47   1.56719556e+04  1.56719556e+04  2.98e-12 1.11e-12  4.60e-11     1s
+
+Barrier solved model in 47 iterations and 1.19 seconds
+Optimal objective 1.56719556e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 8.6839910e-13                 1s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.3048577e-12      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      22    1.5671956e+04   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 22 iterations and 1.23 seconds
+Optimal objective  1.567195559e+04
+Optimize a model with 1648 rows, 60369 columns and 401772 nonzeros
+Coefficient statistics:
+  Matrix range     [3e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.2353498e+33   1.543592e+33   2.235350e+03      0s
+    1975    1.9309360e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 1975 iterations and 1.07 seconds
+Optimal objective  1.930935980e+04
+Optimize a model with 1648 rows, 61153 columns and 414233 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.0267538e+33   2.911303e+33   8.026754e+03      0s
+    4983    2.3247642e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 4983 iterations and 3.02 seconds
+Optimal objective  2.324764150e+04
+Optimize a model with 1648 rows, 61937 columns and 438120 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.2142059e+33   6.109841e+33   4.214206e+03      0s
+    5760    2.4898531e+04   6.030961e+04   0.000000e+00      5s
+    6455    2.4758340e+04   0.000000e+00   0.000000e+00      6s
+
+Solved in 6455 iterations and 5.89 seconds
+Optimal objective  2.475834014e+04
+Optimize a model with 1648 rows, 62721 columns and 453612 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.1592389e+33   4.193237e+33   5.159239e+03      0s
+    5720    2.6277711e+04   2.018566e+04   0.000000e+00      5s
+    7099    2.5952639e+04   0.000000e+00   0.000000e+00      7s
+
+Solved in 7099 iterations and 6.71 seconds
+Optimal objective  2.595263853e+04
+Optimize a model with 1648 rows, 63505 columns and 467981 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.8768814e+33   3.676719e+33   3.876881e+03      0s
+    4668    2.6612899e+04   0.000000e+00   0.000000e+00      4s
+
+Solved in 4668 iterations and 4.33 seconds
+Optimal objective  2.661289861e+04
+Optimize a model with 1648 rows, 64289 columns and 482754 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.7451236e+33   1.156543e+34   2.745124e+03      0s
+    3892    2.7053287e+04   0.000000e+00   0.000000e+00      4s
+
+Solved in 3892 iterations and 3.61 seconds
+Optimal objective  2.705328679e+04
+Optimize a model with 1648 rows, 65065 columns and 494745 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.2942212e+33   1.005904e+34   2.294221e+03      0s
+    4845    2.7275133e+04   0.000000e+00   0.000000e+00      5s
+
+Solved in 4845 iterations and 4.50 seconds
+Optimal objective  2.727513292e+04
+Optimize a model with 1648 rows, 65826 columns and 506959 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0174518e+33   1.262881e+34   1.017452e+03      0s
+    6218    2.7392572e+04   0.000000e+00   0.000000e+00      5s
+
+Solved in 6218 iterations and 4.87 seconds
+Optimal objective  2.739257210e+04
+Optimize a model with 1648 rows, 66584 columns and 518355 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.4263690e+32   1.359266e+34   4.426369e+02      0s
+    4061    2.7459767e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 4061 iterations and 3.03 seconds
+Optimal objective  2.745976695e+04
+Optimize a model with 1648 rows, 67336 columns and 531837 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.9916905e+32   5.992097e+33   1.991691e+02      0s
+    3388    2.7524590e+04   0.000000e+00   0.000000e+00      2s
+
+Solved in 3388 iterations and 2.23 seconds
+Optimal objective  2.752459026e+04
+Optimize a model with 1648 rows, 68082 columns and 544264 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.8634237e+32   1.587221e+34   1.863424e+02      0s
+    3670    2.7557705e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 3670 iterations and 2.99 seconds
+Optimal objective  2.755770528e+04
+Optimize a model with 1648 rows, 68809 columns and 557377 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    7.3872165e+31   3.140700e+33   7.387217e+01      0s
+    4393    2.7580765e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 4393 iterations and 3.38 seconds
+Optimal objective  2.758076519e+04
+Optimize a model with 1648 rows, 69519 columns and 569558 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.8840900e+31   7.999012e+33   4.884090e+01      0s
+    3676    2.7591884e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 3676 iterations and 2.91 seconds
+Optimal objective  2.759188354e+04
+Optimize a model with 1648 rows, 70195 columns and 581722 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.9245449e+31   4.718230e+33   1.924545e+01      0s
+    3926    2.7600140e+04   0.000000e+00   0.000000e+00      3s
+
+Solved in 3926 iterations and 3.43 seconds
+Optimal objective  2.760013976e+04
+Optimize a model with 1648 rows, 70852 columns and 593369 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0529444e+31   2.460227e+33   1.052944e+01      0s
+    2665    2.7602828e+04   0.000000e+00   0.000000e+00      2s
+
+Solved in 2665 iterations and 2.36 seconds
+Optimal objective  2.760282795e+04
+Optimize a model with 1648 rows, 71418 columns and 603503 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.1488861e+30   1.058094e+33   3.148886e+00      0s
+    1439    2.7604288e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 1439 iterations and 1.21 seconds
+Optimal objective  2.760428790e+04
+Optimize a model with 1648 rows, 71944 columns and 612667 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2186397e+30   1.282861e+33   1.218640e+00      0s
+    1358    2.7604642e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 1358 iterations and 1.34 seconds
+Optimal objective  2.760464244e+04
+Optimize a model with 1648 rows, 72440 columns and 621149 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.8085526e+29   5.010351e+32   1.808553e-01      0s
+     306    2.7604711e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 306 iterations and 0.28 seconds
+Optimal objective  2.760471089e+04
+Optimize a model with 1648 rows, 72906 columns and 628934 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.9610007e+28   1.432536e+32   2.961001e-02      0s
+      97    2.7604722e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 97 iterations and 0.14 seconds
+Optimal objective  2.760472197e+04
+Optimize a model with 1648 rows, 73373 columns and 636595 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-05, 4e+03]
+  Objective range  [7e-05, 2e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 4e+04]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.6264888e+27   6.318631e+31   1.626489e-03      0s
+      36    2.7604722e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 36 iterations and 0.11 seconds
+Optimal objective  2.760472248e+04
